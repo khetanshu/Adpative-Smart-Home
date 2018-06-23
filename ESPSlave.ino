@@ -15,11 +15,11 @@
 ESP8266WiFiMulti WiFiMulti;
 
 //Wifi Configuration
-char* ssid1="ktcmobile";
-char* pwd="ktcpark1217";
+char* ssid1="ssdID";
+char* pwd="password";
 
 //webservice URL
-String URL="http://khetanshupi:1880/system?id=";
+String URL="http://hostname:1880/system?id=";
 
 //Lights Configurations
 int LIGHT1_GPIO=5;
